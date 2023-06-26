@@ -1,39 +1,50 @@
 /*  your css code here. If applicable */
-body{
-	background-color:#f5f5f5;
-}
-#header{
-background-color:#011e29;
-	color:white;
-	display:flex;
-	justify-content:center;
-}
-.header{
-	background-color: white;
-	display:flex;
-
-	
-}
-.a{
-	background-color: #f5f5f5;
-	padding:30px;
-	margin:2px;
-	border-radius:10px;
-	
-}
-#b{
-	background-color:white;
-	
-border: 1px solid whitesmoke;
-	background-color:white;
-}
-#c{
-	border: 1px solid whitesmoke;
-	background-color:white;
-
-}
-#d{
-	border: 1px solid whitesmoke;
-	background-color:white;
-
-}
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f5f5f5;
+  }
+  
+  header {
+  background-color: #011e29;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  }
+  
+  .hero-section {
+  vertical-align:top;
+  display:inline-block;
+  width:40%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius:20px;
+  }
+  
+  .latest-news-section {
+  vertical-align:top;
+  background-color: white;
+  display:inline-block;
+  width:20%;
+  padding: 20px;
+  border-radius:20px;
+  }
+  
+  .pictorial-news-section {
+  vertical-align:top;
+  display:inline-block;
+  background-color: white;
+  width:20%;
+  padding: 20px;
+  text-align: center;
+  border-radius:20px;
+  }
+  
+  .container{
+  position:relative;
+  text-align:center;
+  margin-top:10px;
+  }
+  .pictorial-news-section img{
+  margin-top:10px;
+  }
